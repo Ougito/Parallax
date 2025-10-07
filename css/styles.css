@@ -50,13 +50,11 @@
 }
 
 h1 {
-    height: fit-content;
-    display: block;
     width: 100%;
     padding: 5vh 0;
     position: fixed;
     text-align: center;
-    color: white;
+    color: #fffffd;
     background-color: #0b7aaa;
     box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
     z-index: 9999;
@@ -67,7 +65,7 @@ h2 {
     width: fit-content;
     background-color: #4b9dbc;
     font-size: 1.2em;
-    color: white;
+    color: #fffffd;
     text-align: left;
     padding: 5px 10px;
     margin-bottom: -10px;
@@ -88,4 +86,14 @@ p {
 div:nth-of-type(even) p {
     background-color: #fffffd;
     color: darkslategrey;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #0b7aaa;
+    padding: 3vh 0;
+    text-align: center;
+    color: #fffffd;
 }
