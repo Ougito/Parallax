@@ -34,7 +34,7 @@
 }
 
 .parallax {
-    height: 600px;
+    height: 400px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -44,33 +44,48 @@
 .content {
     height: auto;
     text-align: center;
+    float: left;
+    position: relative;
+    top: -19px;
 }
 
-h1.content {
+h1 {
     height: fit-content;
     display: block;
     width: 100%;
-    padding: 10vh 0;
+    padding: 5vh 0;
     position: fixed;
-    margin-top: 0;
     text-align: center;
     color: white;
     background-color: #0b7aaa;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
+    z-index: 9999;
 }
 
 h2 {
-    display: block;
+    position: relative;
     width: fit-content;
     background-color: #4b9dbc;
     font-size: 1.2em;
     color: white;
     text-align: left;
     padding: 5px 10px;
+    margin-bottom: -10px;
+    opacity: 0.9;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 p {
+    background-color: #343946;
+    color: #fffffd;
     text-align: justify;
-    padding: 50px 10px;
+    padding: 15px 60px;
     font-size: 0.75em;
     line-height: 1.5;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+div:nth-of-type(even) p {
+    background-color: #fffffd;
+    color: darkslategrey;
 }
