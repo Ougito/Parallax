@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+#principal {
+    background-image: url("/img/Monasterio_7H9A9908.jpg");
+}
+
+#portal {
+    background-image: url("/img/Monasterio_7H9A9937.jpg");
+}
+
+#esglesia {
+    background-image: url("/img/Monasterio_7H9A9911.jpg");
+}
+
+#claustre {
+    background-image: url("/img/Monasterio_7H9A9958.jpg");
+}
+
+#refectori {
+    background-image: url("/img/Monasterio_7H9A9922.jpg");
+}
+
+#font {
+    background-image: url("/img/Monasterio_7H9A9979.jpg");
+}
+
+#capitol {
+    background-image: url("/img/Monasterio_7H9A9970.jpg");
+}
+
+.parallax {
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    height: auto;
+    text-align: center;
+}
+
+h1.content {
+    height: fit-content;
+    display: block;
+    width: 100%;
+    padding: 10vh 0;
+    position: fixed;
+    margin-top: 0;
+    text-align: center;
+    color: white;
+    background-color: #0b7aaa;
+}
+
+h2 {
+    display: block;
+    width: fit-content;
+    background-color: #4b9dbc;
+    font-size: 1.2em;
+    color: white;
+    text-align: left;
+    padding: 5px 10px;
+}
+
+p {
+    text-align: justify;
+    padding: 50px 10px;
+    font-size: 0.75em;
+    line-height: 1.5;
+}
