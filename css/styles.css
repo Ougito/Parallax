@@ -42,6 +42,7 @@
 }
 
 .content {
+    width: 100%;
     height: auto;
     text-align: center;
     float: left;
